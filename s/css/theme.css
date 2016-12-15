@@ -3162,7 +3162,7 @@ body.theme--boxed section.section--overlap + section:not(.bg--white):not(.bg--da
 }
 @font-face {
   font-family: 'Raleway';
-  src: url('../fonts/Raleway-SemiBold.otf') format('opentype');
+  src: url('../fonts/raleway/ralewaysemibold.woff') format('opentype');
   font-weight: 600;
   font-style: normal;
 }
