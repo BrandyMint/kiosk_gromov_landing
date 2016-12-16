@@ -57,6 +57,36 @@
   </head>
 
   <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+    <div class="utility-bar nav--absolute nav--transparent" ata-fixed-at="200">
+      <div class="nav-module left"> <a href="tel:88007755661" class="type--fine-print">8 (800) 77-55-661 (звонок бесплатный)</a> </div>
+      <div class="nav-module right hidden-xs">
+        <div class="modal-instance">
+          <a class="modal-trigger" href="#"> <span class="type--fine-print">ВХОД ДЛЯ КЛИЕНТОВ</span> </a>
+          <div class="modal-container">
+            <div class="modal-content bg--white height--natural">
+              <div class="form-signin boxed boxed--lg bg--white text-center">
+                <h4>Вход для владельцев магазинов</h4>
+                <form accept-charset="UTF-8" action="https://app.kiiiosk.ru/registration" method="post">
+                  <div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+                  <div class="input-with-icon">
+                    <i class="icon icon-Smartphone-3"></i>
+                    <input type="text" name="operator_login_form[login]" placeholder="Email или телефон" />
+                  </div>
+                  <div class="input-with-icon">
+                    <i class="icon icon-Lock"></i>
+                    <input id="tel" type="password" name="operator_login_form[password]" placeholder="Пароль" />
+                  </div> 
+                  <button class="btn btn--primary mb--1" type="submit"><span class="btn__text">Войти</span></button>
+                </form>
+              </div>
+            </div>
+            <!--end of modal-content-->
+          </div>
+          <!--end of modal-container-->
+        </div>
+      </div>
+    </div>
+
     <div class="nav-container"> </div>
     <div class="main-container">
       <section class="cover cover-12 form--dark imagebg height-100 parallax" data-overlay="0">
@@ -88,7 +118,8 @@
                   <div class="input-with-icon">
                     <i class="icon icon-Smartphone-3"></i>
                     <input id="tel" type="tel" name="vendor_registration_form[phone]" placeholder="Мобильный телефон" />
-                  </div> <button class="btn btn--primary mb--1" type="submit"><span class="btn__text">Попробовать бесплатно</span></a>
+                  </div> 
+                  <button class="btn btn--primary mb--1" type="submit"><span class="btn__text">Попробовать бесплатно</span></button>
                 </form>
               </div>
             </div>
@@ -238,115 +269,116 @@
               <ul class="social-list">
                 <li> <a href="https://twitter.com/kiiiosk" target="_blank"><i class="socicon-twitter"></i></a> </li>
                 <li> <a href="https://facebook.com/kiiiosk" target="_blank"><i class="socicon-facebook"></i></a> </li>
-              <li> <a href="https://vk.com/kiiiosk" target="_blank"><i class="socicon-vkontakte"></i></a> </li>
-              <li> <a href="https://instagram.com/kiiiosk" target="_blank"><i class="socicon-instagram"></i></a> </li>
-              <li> <a href="https://www.youtube.com/channel/UCOpAU2zK5rDTsCXa5Uoxsmw" target="_blank"><i class="socicon-youtube"></i></a> </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer__lower">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 text-center-xs"> <span class="type--fine-print">© Copyright
-                2014 - <span class="update-year">2016</span> Киоск - All Rights Reserved</span>
-               <div class='fb-like' data-action='like' data-href='https://www.facebook.com/kiiiosk' data-layout='button_count' data-share='false'></div> 
+                <li> <a href="https://vk.com/kiiiosk" target="_blank"><i class="socicon-vkontakte"></i></a> </li>
+                <li> <a href="https://instagram.com/kiiiosk" target="_blank"><i class="socicon-instagram"></i></a> </li>
+                <li> <a href="https://www.youtube.com/channel/UCOpAU2zK5rDTsCXa5Uoxsmw" target="_blank"><i class="socicon-youtube"></i></a> </li>
+              </ul>
             </div>
-            <div class="col-sm-6 text-right text-center-xs"> <a class="inner-link top-link" href="#top"><i class="icon-Arrow-Up"></i></a> </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
+        <div class="footer__lower">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 text-center-xs"> <span class="type--fine-print">© Copyright
+                  2014 - <span class="update-year">2016</span> Киоск - All Rights Reserved</span>
+                <div class='fb-like' data-action='like' data-href='https://www.facebook.com/kiiiosk' data-layout='button_count' data-share='false'></div> 
+              </div>
+              <div class="col-sm-6 text-right text-center-xs"> <a class="inner-link top-link" href="#top"><i class="icon-Arrow-Up"></i></a> </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-  <script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js" data-appversion="ls-1" data-apikey="c9c9be65fd21df5c43c17774397d8f61"> </script>
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-  <!--End mc_embed_signup-->
-  <script src="s/js/jquery-2.1.4.min.js"></script>
-  <script src="s/js/owl.carousel.min.js"></script>
-  <script src="s/js/twitterfetcher.min.js"></script>
-  <script src="s/js/smooth-scroll.min.js"></script>
-  <script src="s/js/scrollreveal.min.js"></script>
-  <script src="s/js/parallax.js"></script>
-  <script src="s/js/scripts.js"></script>
-  <script src="s/js/stats.js"></script>
+    <script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js" data-appversion="ls-1" data-apikey="c9c9be65fd21df5c43c17774397d8f61"> </script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+    <script src="s/js/jquery-2.1.4.min.js"></script>
+    <script src="s/js/owl.carousel.min.js"></script>
+    <script src="s/js/twitterfetcher.min.js"></script>
+    <script src="s/js/smooth-scroll.min.js"></script>
+    <script src="s/js/scrollreveal.min.js"></script>
+    <script src="s/js/lightbox.min.js"></script>
+    <script src="s/js/parallax.js"></script>
+    <script src="s/js/scripts.js"></script>
+    <script src="s/js/stats.js"></script>
 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-8145521-16', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+      try {
+      w.yaCounter27444066 = new Ya.Metrika({
+      id:27444066,
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+      });
+      } catch(e) { }
+      });
+
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+      if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+
+      $('#new_vendor_registration_form, #lp1_run_shop_form').submit(function( event ) {
+      yaCounter27444066.reachGoal('REGISTER');
+      return true;
+      });
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/27444066" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=pR9yK5hoL0*8RACx6ZvZKlFecE/9g/c2yTuRANLzQ3TUa0G5uQf/X1vj6BYBDtTIjT1uLCyveRyYoj223Q209JKLzKjwr14/ttkQRuEyKqiESI1hgvu4l1nKABJ4ZYaubqsO8BOd/w6AMYB5GskT1lJGNgCNnlYF9Gy3sYwCCpI-';</script>
+
+
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+    <!-- VK Widget -->
+    <div id="vk_community_messages"></div>
+    <script type="text/javascript">
+      VK.Widgets.CommunityMessages("vk_community_messages", 83055199, {});
+    </script>
+
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=731919696901929&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Facebook Pixel Code -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-8145521-16', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-    try {
-    w.yaCounter27444066 = new Ya.Metrika({
-    id:27444066,
-    clickmap:true,
-    trackLinks:true,
-    accurateTrackBounce:true,
-    webvisor:true
-    });
-    } catch(e) { }
-    });
-
-    var n = d.getElementsByTagName("script")[0],
-    s = d.createElement("script"),
-    f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") {
-    d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-
-    $('#new_vendor_registration_form, #lp1_run_shop_form').submit(function( event ) {
-    yaCounter27444066.reachGoal('REGISTER');
-    return true;
-    });
-    })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/27444066" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-
-  <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=pR9yK5hoL0*8RACx6ZvZKlFecE/9g/c2yTuRANLzQ3TUa0G5uQf/X1vj6BYBDtTIjT1uLCyveRyYoj223Q209JKLzKjwr14/ttkQRuEyKqiESI1hgvu4l1nKABJ4ZYaubqsO8BOd/w6AMYB5GskT1lJGNgCNnlYF9Gy3sYwCCpI-';</script>
-
-
-  <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
-
-  <!-- VK Widget -->
-  <div id="vk_community_messages"></div>
-  <script type="text/javascript">
-    VK.Widgets.CommunityMessages("vk_community_messages", 83055199, {});
-  </script>
-
-
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=731919696901929&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1065876043502079');
-fbq('track', "PageView");</script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1065876043502079');
+  fbq('track', "PageView");</script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1065876043502079&ev=PageView&noscript=1"
   /></noscript>

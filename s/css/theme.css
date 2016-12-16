@@ -979,7 +979,8 @@ a {
   color: #343434;
   border-color: #343434;
   font-weight: 600;  /**! change **/
-  font-size: 0.625em;
+  /* чтобы кнопка Попробовать бесплатно было с большим шрифтом */
+  /* font-size: 0.625em; */
 }
 .btn[class*='col-'] {
   margin-left: 0;
