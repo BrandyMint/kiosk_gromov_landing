@@ -59,7 +59,7 @@
   <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
     <div class="utility-bar nav--absolute nav--transparent" ata-fixed-at="200">
       <div class="nav-module left"> <a href="tel:88007755661" class="type--fine-print">8 (800) 77-55-661 (звонок бесплатный)</a> </div>
-      <div class="nav-module right hidden-xs">
+      <div class="nav-module right">
         <div class="modal-instance">
           <a class="modal-trigger" href="#"> <span class="type--fine-print">ВХОД ДЛЯ КЛИЕНТОВ</span> </a>
           <div class="modal-container">
@@ -261,6 +261,10 @@
               <h6>Рассылка</h6>
               <p>Подпишитесь на рассылку новостей проекта</p>
               <form action="https://kiiiosk.us2.list-manage.com/subscribe/post?u=45e2525836576309efdaa7abf&amp;id=213e4391a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form--merge validate" target="_blank" novalidate>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_45e2525836576309efdaa7abf_213e4391a6" tabindex="-1" value=""></div>
                 <input class="col-sm-8" type="email" name="EMAIL" placeholder="name@website.com" required="required"/>
                 <button class="col-sm-4 btn btn--primary" type="submit" name="subscribe" id="mc-embedded-subscribe">OK</button>
@@ -296,8 +300,32 @@
     </div>
 
     <script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js" data-appversion="ls-1" data-apikey="c9c9be65fd21df5c43c17774397d8f61"> </script>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-    <!--End mc_embed_signup-->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text'; 
+/*
+ * Translated default messages for the $ validation plugin.
+ * Locale: RU
+ */
+$.extend($.validator.messages, {
+        required: "Это поле необходимо заполнить.",
+        remote: "Пожалуйста, введите правильное значение.",
+        email: "Пожалуйста, введите корректный адрес электронной почты.",
+        url: "Пожалуйста, введите корректный URL.",
+        date: "Пожалуйста, введите корректную дату.",
+        dateISO: "Пожалуйста, введите корректную дату в формате ISO.",
+        number: "Пожалуйста, введите число.",
+        digits: "Пожалуйста, вводите только цифры.",
+        creditcard: "Пожалуйста, введите правильный номер кредитной карты.",
+        equalTo: "Пожалуйста, введите такое же значение ещё раз.",
+        accept: "Пожалуйста, выберите файл с правильным расширением.",
+        maxlength: $.validator.format("Пожалуйста, введите не больше {0} символов."),
+        minlength: $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+        rangelength: $.validator.format("Пожалуйста, введите значение длиной от {0} до {1} символов."),
+        range: $.validator.format("Пожалуйста, введите число от {0} до {1}."),
+        max: $.validator.format("Пожалуйста, введите число, меньшее или равное {0}."),
+        min: $.validator.format("Пожалуйста, введите число, большее или равное {0}.")
+});}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
     <script src="s/js/jquery-2.1.4.min.js"></script>
     <script src="s/js/owl.carousel.min.js"></script>
     <script src="s/js/twitterfetcher.min.js"></script>
