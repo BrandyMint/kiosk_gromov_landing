@@ -76,7 +76,7 @@
                     <i class="icon icon-Lock"></i>
                     <input id="tel" type="password" name="operator_login_form[password]" placeholder="Пароль" />
                   </div> 
-                  <button class="btn btn--primary mb--1" type="submit"><span class="btn__text">Войти</span></button>
+                  <button class="btn btn--primary mb--1" type="submit">Войти</button>
                 </form>
               </div>
             </div>
@@ -101,7 +101,7 @@
                 <div class="video-play-icon video-play-icon--sm modal-trigger"></div> <span class="h6" style="color: #343434">Посмотреть видеообзор</span>
                 <div class="modal-container">
                   <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                    <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/HDpeEYq2YhA?autoplay=1"></iframe>
+                    <iframe class="iframe-video" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/HDpeEYq2YhA?autoplay=1"></iframe>
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@
                     <i class="icon icon-Smartphone-3"></i>
                     <input id="tel" type="tel" name="vendor_registration_form[phone]" placeholder="Мобильный телефон" />
                   </div> 
-                  <button class="btn btn--primary mb--1" type="submit"><span class="btn__text">Попробовать бесплатно</span></button>
+                  <button class="btn btn--primary mb--1" type="submit">Попробовать бесплатно</button>
                 </form>
               </div>
             </div>
@@ -244,11 +244,11 @@
             <div class="col-md-3 col-sm-4"> <img alt="logo" class="logo" src="s/img/logo-light.png">
               <p><em>Конструктор интернет-магазинов</em></p>
               <ul class="footer__navigation">
-                <li> <a href="#"><span>Правила e‐commerce</span></a> </li>
-                <li> <a href="#"><span>Оферта</span></a> </li>
-                <li> <a href="#"><span>Информация о компании</span></a> </li>
-                <li> <a href="#"><span>Вакансии</span></a> </li>
-                <li> <a href="#"><span>Privacy Policy</span></a> </li>
+                <li> <a href="/rules"><span>Правила e‐commerce</span></a> </li>
+                <li> <a href="/offer"><span>Оферта</span></a> </li>
+                <li> <a href="/company"><span>Информация о компании</span></a> </li>
+                <li> <a href="/job"><span>Вакансии</span></a> </li>
+                <li> <a href="/privacy_policy"><span>Privacy Policy</span></a> </li>
               </ul>
             </div>
             <div class="col-md-4 col-sm-8">
@@ -273,17 +273,22 @@
                 <li> <a href="https://instagram.com/kiiiosk" target="_blank"><i class="socicon-instagram"></i></a> </li>
                 <li> <a href="https://www.youtube.com/channel/UCOpAU2zK5rDTsCXa5Uoxsmw" target="_blank"><i class="socicon-youtube"></i></a> </li>
               </ul>
+              <div class='fb-like' data-action='like' data-href='https://www.facebook.com/kiiiosk' data-layout='button_count' data-share='false'></div> 
             </div>
           </div>
         </div>
         <div class="footer__lower">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 text-center-xs"> <span class="type--fine-print">© Copyright
-                  2014 - <span class="update-year">2016</span> Киоск - All Rights Reserved</span>
-                <div class='fb-like' data-action='like' data-href='https://www.facebook.com/kiiiosk' data-layout='button_count' data-share='false'></div> 
+              <div class="col-sm-4 text-center-xs"> 
+                <span class="type--fine-print">© Copyright 2014 - <span class="update-year">2016</span> Киоск - All Rights Reserved</span>
               </div>
-              <div class="col-sm-6 text-right text-center-xs"> <a class="inner-link top-link" href="#top"><i class="icon-Arrow-Up"></i></a> </div>
+              <div class="col-sm-4 text-right text-center"> 
+                <a href="tel:88007755661" class="type--fine-print">8 (800) 77-55-661 (звонок бесплатный)</a></li>
+              </div>
+              <div class="col-sm-4 text-right text-center-xs"> 
+                <a class="inner-link top-link" href="#top"><i class="icon-Arrow-Up"></i></a> 
+              </div>
             </div>
           </div>
         </div>

@@ -970,7 +970,10 @@ a {
   padding-left: 3.25em;
   border: 1px solid #242529;
   border-width: 2px;
-  font-size: inherit;
+
+  /* Отключили, чтобы кнопки входа/регистрации отображались нормально */
+  /* font-size: inherit; */
+
   line-height: 1.625em;
   text-transform: uppercase;
 }
@@ -979,8 +982,7 @@ a {
   color: #343434;
   border-color: #343434;
   font-weight: 600;  /**! change **/
-  /* чтобы кнопка Попробовать бесплатно было с большим шрифтом */
-  /* font-size: 0.625em; */
+  font-size: 0.625em;
 }
 .btn[class*='col-'] {
   margin-left: 0;
@@ -2602,13 +2604,13 @@ section.bg--dark .slider.slider--controlsoutside[data-paging="true"] .owl-theme 
   }
 }
 /**! 26. Video **/
-iframe {
+iframe.iframe-video {
   width: 100%;
   min-height: 350px;
   border: none;
 }
 @media all and (max-width: 767px) {
-  iframe {
+  iframe.iframe-video {
     min-height: 220px;
   }
 }
@@ -4166,7 +4168,9 @@ label + input {
 }
 button {
   height: 52px;
-  font-size: 0.625em !important;
+
+  /* Отлкючили, потому что мешает кнопкам входа/регистрации */
+  /* font-size: 0.625em !important; */
   letter-spacing: 1px;
   color: #fff;
   background: #42bb92;
@@ -6256,7 +6260,7 @@ a:active .card {
   }
 }
 /*! -- Pillar Video Covers -- */
-iframe {
+iframe.iframe-video {
   background: #f4f4f4;
 }
 /*! -- Pillar Members -- */
